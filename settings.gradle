@@ -1,0 +1,6 @@
+includeBuild("dependencies")
+include ':app'
+include ':base'
+include ':commons'
+include ':network'
+include ':actions'

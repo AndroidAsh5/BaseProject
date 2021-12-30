@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_no_internet"
+            android:layout_width="@dimen/no_internet_imageview_size"
+            android:layout_height="@dimen/no_internet_imageview_size"
+            android:layout_marginTop="@dimen/no_internet_top_margin"
+            android:background="@drawable/ic_no_internet_connection"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_no_internet_heading"
+            style="@style/TextAppearance.Font.MontserratBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/no_internet_heading_top_margin"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="7sp"
+            android:text="@string/no_internet_connection"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_no_internet" />
+
+        <TextView
+            android:id="@+id/tv_no_internet_rationale"
+            style="@style/TextAppearance.Font.MontserratLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/no_internet_rationale_top_margin"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/please_check_your_internet_connection"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_no_internet_heading" />
+
+        <Button
+            android:id="@+id/btn_no_internet_retry"
+            style="@style/TextAppearance.Font.MontserratLight"
+            android:layout_width="@dimen/no_internet_btn_retry_width"
+            android:layout_height="@dimen/no_internet_btn_retry_height"
+            android:layout_marginTop="@dimen/no_internet_btn_retry_top_margin"
+            android:layout_marginBottom="@dimen/no_internet_btn_retry_bottom_margin"
+            android:background="@drawable/button_teal_outline_bg"
+            android:text="@string/retry"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_no_internet_rationale" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

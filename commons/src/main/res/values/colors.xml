@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3BB3B7</color>
+    <color name="primaryLightColor">#49c4c7</color>
+    <color name="colorPrimaryDark">#319497</color>
+    <color name="xray_blue">#014C95</color>
+    <color name="colorAccent">#3BB3B7</color>
+    <color name="colorAppBlack">#191919</color>
+    <color name="tealProgress">#2ccacf</color>
+    <color name="secondaryLightColor">#ff6090</color>
+    <color name="secondaryDarkColor">#bc0000</color>
+
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="charcoalBlack">#484848</color>
+    <color name="tertiaryTextColor">#525252</color>
+    <color name="disabledTextColor">#837575</color>
+    <color name="menuTextColor">#1a1a1a</color>
+    <color name="headerTextColor">#d9000000</color>
+    <color name="carbonBlack">#191919</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="green">#32CD32</color>
+    <color name="green_dark">#007f00</color>
+    <color name="note_green">#4D5B5B</color>
+    <color name="brown_dark">#454545</color>
+
+
+    // Gray Variants
+    <color name="gray">#D3D3D3</color>
+    <color name="gray_light">#4D4D4D</color>
+    <color name="light_gray">#F6F6F6</color>
+    <color name="themed_gray_light">#BBBBBD</color>
+    <color name="darkest_gray">#4D4D4D</color>
+    <color name="darker_gray">#909090</color>
+    <color name="dark_gray">#e8e8e8</color>
+    <color name="disable_gray">#dbdbdb</color>
+
+
+    // Red variants
+    <color name="light_red">#C5332D</color>
+    <color name="dark_red">#c52d4d</color>
+    <color name="toast_red">#f85f5f</color>
+    <color name="warning_red">#f85f5f</color>
+    <color name="linkingRed">#f06061</color>
+
+    <color name="colorToolbar">#f2f3f8</color>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="no_internet_btn_retry_width">150dp</dimen>
+    <dimen name="no_internet_btn_retry_height">50dp</dimen>
+    <dimen name="no_internet_imageview_size">140dp</dimen>
+    <dimen name="no_internet_top_margin">20dp</dimen>
+    <dimen name="no_internet_heading_top_margin">26dp</dimen>
+    <dimen name="no_internet_rationale_top_margin">8dp</dimen>
+    <dimen name="no_internet_btn_retry_top_margin">26dp</dimen>
+    <dimen name="no_internet_btn_retry_bottom_margin">20dp</dimen>
+
+    <dimen name="constraint_margin_40">40dp</dimen>
+    <dimen name="constraint_margin_36">36dp</dimen>
+    <dimen name="constraint_margin_30">30dp</dimen>
+    <dimen name="constraint_margin_26">26dp</dimen>
+    <dimen name="constraint_margin_20">20dp</dimen>
+    <dimen name="constraint_margin_24">24dp</dimen>
+    <dimen name="constraint_margin_18">18dp</dimen>
+    <dimen name="constraint_margin_16">16dp</dimen>
+    <dimen name="constraint_margin_14">14dp</dimen>
+    <dimen name="constraint_margin_12">12dp</dimen>
+    <dimen name="constraint_margin_10">10dp</dimen>
+    <dimen name="constraint_margin_8">8dp</dimen>
+    <dimen name="constraint_margin_6">6dp</dimen>
+    <dimen name="constraint_margin_4">4dp</dimen>
+    <dimen name="constraint_margin_2">2dp</dimen>
+
+
+    <dimen name="toast_padding">14dp</dimen>
+
+    <!-- font sizes -->
+    <dimen name="font_largest">36sp</dimen>
+    <dimen name="font_larger">22sp</dimen>
+    <dimen name="font_xtra_large">20sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_medium">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_font_size">18dp</dimen>
+    <dimen name="toolbar_height">45dp</dimen>
+
+
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="appBackButton">
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@drawable/rectangle_round_white_7dp</item>
+        <item name="android:src">@drawable/ic_arrow_back</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="TextAppearance.Font.MontserratMedium" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Montserrat-Medium.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Font.MontserratLight" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Montserrat-Light.ttf</item>
+    </style>
+
+
+    <style name="TextAppearance.Font.MontserratBold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Montserrat-Bold.ttf</item>
+    </style>
+
+    <style name="TextAppearance.Font.MontserratRegular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Montserrat-Regular.ttf</item>
+    </style>
+
+</resources>
